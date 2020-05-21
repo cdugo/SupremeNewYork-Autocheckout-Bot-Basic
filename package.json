@@ -1,0 +1,24 @@
+{
+  "name": "cdugo-apcsp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdugo/cdugo-apcsp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cdugo/cdugo-apcsp/issues"
+  },
+  "homepage": "https://github.com/cdugo/cdugo-apcsp#readme",
+  "dependencies": {
+    "got": "^11.1.4"
+  }
+}
