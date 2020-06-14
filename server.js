@@ -71,7 +71,7 @@ const findProduct = async (category, keywords) => {
     return product;
 }
 
-const ATC = async (product, style, size) => await got.post(`/shop/${product.id}/add.json`, { form: { s: size.id, st: style.id, qty: 1 } });
+const ATC = async (product, style, size) => await got.post(`shop/${product.id}/add.json`, { form: { s: size.id, st: style.id, qty: 1 } });
 
 const checkout = async (billing, shipping) => {
   const { cookies } = cookieJar.toJSON(),
