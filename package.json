@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/cdugo/cdugo-apcsp#readme",
   "dependencies": {
-    "got": "^11.1.4",
+    "got": "^11.8.5",
     "tough-cookie": "^4.0.0"
   }
 }
